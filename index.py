@@ -7,7 +7,7 @@ import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 
 
 os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
-os.environ['STABILITY_KEY'] = 'sk-Vf1g2hV9pvGAJYm5n16EYB7D7veCInOd13RXBit99qRFlFDd'
+os.environ['STABILITY_KEY'] = 'API KEY HERE ' (I got one and tested it with it) 
 stability_api = client.StabilityInference(key=os.environ['STABILITY_KEY'],
 verbose=True,
 engine="stable-diffusion-xl-beta-v2-2-2",
